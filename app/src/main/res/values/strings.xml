@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Rau hữu cơ</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="sign_up">Not have account yet! Click here to sign up</string>
+    <string name="title_activity_detail_">CHI TIẾT SẢN PHẨM</string>
+    <string name="title_activity_category_">LOẠI SẢN PHẨM</string>
+    <string name="title_activity_rau_an_than_la_">RAU ĂN THÂN LÁ</string>
+    <string name="title_activity_rau_lay_cu_">RAU LẤY CỦ</string>
+    <string name="title_activity_cart_">GIỎ HÀNG</string>
+    <string name="title_activity_sign_in_">ĐĂNG NHẬP</string>
+    <string name="title_activity_bill_">ĐẶT HÀNG</string>
+    <string name="title_activity_sign_up_">ĐĂNG KÝ TÀI KHOẢN</string>
+    <string name="title_activity_rau_xa_lach_">RAU XÀ LÁCH</string>
+    <string name="title_activity_rau_rung_">RAU RỪNG</string>
+    <string name="title_activity_rau_gia_vi_">RAU GIA VỊ - RAU SỐNG</string>
+</resources>

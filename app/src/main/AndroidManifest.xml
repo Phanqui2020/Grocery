@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.phanqui.grocery">
+
+    <uses-sdk tools:overrideLibrary="android.support.v14.leanback" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.Splash_Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.SignIn_Activity"
+            android:label="@string/title_activity_sign_in_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.OnSale_Activity" />
+        <activity android:name=".Activities.Delivery_Activity" />
+        <activity android:name=".Activities.FeedBack_Activity" />
+        <activity
+            android:name=".Activities.Detail_Activity"
+            android:label="@string/title_activity_detail_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.Category_Activity"
+            android:label="@string/title_activity_category_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.RauAnThanLa_Activity"
+            android:label="@string/title_activity_rau_an_than_la_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.RauLayCu_Activity"
+            android:label="@string/title_activity_rau_lay_cu_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.Cart_Activity"
+            android:label="@string/title_activity_cart_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.Bill_Activity"
+            android:label="@string/title_activity_bill_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/title_activity_bill_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.SignUp_Activity"
+            android:label="@string/title_activity_sign_up_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.RauXaLach_Activity"
+            android:label="@string/title_activity_rau_xa_lach_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.RauRung_Activity"
+            android:label="@string/title_activity_rau_rung_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.RauGiaVi_Activity"
+            android:label="@string/title_activity_rau_gia_vi_"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

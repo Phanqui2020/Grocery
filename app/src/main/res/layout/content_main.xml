@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.phanqui.grocery.Activities.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtABC"
+            android:background="@color/cardview_light_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sale Information"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp" />
+
+        <ViewFlipper
+            android:id="@+id/vfSaleInf"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+        </ViewFlipper>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New"
+            android:background="@color/cardview_light_background"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvNewPro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>
